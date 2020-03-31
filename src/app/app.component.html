@@ -1,0 +1,21 @@
+{{title}}
+
+<br>
+
+<button (click)="fetchJson()">Fetch descriptions</button>
+<hr />
+<ul>
+  <li *ngFor="let description of description$ | async">
+    {{description.id}}
+    <br>
+    {{description.message}}
+    <br>
+    {{description.creationDate}}
+    <br>
+  </li>
+</ul>
+<br>
+<br>
+
+
+<footer>Copyright Michal S.</footer>

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "creationDate": "2020-04-01T00:00:00.000+0000",
+        "message": "test 1"
+    },
+    {
+        "id": 2,
+        "creationDate": "2020-04-01T00:00:00.000+0000",
+        "message": "test 2"
+    },
+    {
+        "id": 3,
+        "creationDate": "2020-04-01T00:00:00.000+0000",
+        "message": "test 3"
+    }
+]
