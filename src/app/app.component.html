@@ -4,16 +4,24 @@
 
 <button (click)="fetchJson()">Fetch descriptions</button>
 <hr />
-<ul>
-  <li *ngFor="let description of description$ | async">
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Message</th>
+    <th>Creation Date</th>
+  </tr>
+  <tr *ngFor="let description of description$ | async">
+    <td>
     {{description.id}}
-    <br>
+    </td>
+    <td>
     {{description.message}}
-    <br>
+    </td>
+    <td>
     {{description.creationDate}}
-    <br>
-  </li>
-</ul>
+    </td>
+  </tr>
+</table>
 <br>
 <br>
 
